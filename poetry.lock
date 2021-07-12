@@ -164,20 +164,20 @@ python2 = ["typed-ast (>=1.4.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.17.70"
+version = "1.17.109"
 description = "The AWS SDK for Python"
 category = "main"
 optional = false
 python-versions = ">= 2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 
 [package.dependencies]
-botocore = ">=1.20.70,<1.21.0"
+botocore = ">=1.20.109,<1.21.0"
 jmespath = ">=0.7.1,<1.0.0"
 s3transfer = ">=0.4.0,<0.5.0"
 
 [[package]]
 name = "botocore"
-version = "1.20.70"
+version = "1.20.109"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -189,7 +189,7 @@ python-dateutil = ">=2.1,<3.0.0"
 urllib3 = ">=1.25.4,<1.27"
 
 [package.extras]
-crt = ["awscrt (==0.11.11)"]
+crt = ["awscrt (==0.11.24)"]
 
 [[package]]
 name = "braintree"
@@ -2583,7 +2583,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "b7655263f2bd6d1dde6f044a00cd677753cbb002eb03fb9cbb1ac983aeff2d34"
+content-hash = "5ac4ecd6d652ecb37b81980d1c5a133d0505ffd869eb0e0fe4b3c67262a50aee"
 
 [metadata.files]
 adyen = [
@@ -2646,12 +2646,12 @@ black = [
     {file = "black-21.5b0.tar.gz", hash = "sha256:9dc2042018ca10735366d944c2c12d9cad6dec74a3d5f679d09384ea185d9943"},
 ]
 boto3 = [
-    {file = "boto3-1.17.70-py2.py3-none-any.whl", hash = "sha256:6c8c9c173a8d6c5127a9812ec4b9369280caec4f574e297900dc8e735a92f71f"},
-    {file = "boto3-1.17.70.tar.gz", hash = "sha256:8bdbe29bc9308124e7e96ef912dfa1d656400499edcf398b677db739939e9ba6"},
+    {file = "boto3-1.17.109-py2.py3-none-any.whl", hash = "sha256:c1f94af6989cb6bb90e22c063783b5b9b2b75ccf20bac993d9c35de84501e2bb"},
+    {file = "boto3-1.17.109.tar.gz", hash = "sha256:bce638f57fbf054f8eba1abce56c849108646edde3564bd08316763323a4020e"},
 ]
 botocore = [
-    {file = "botocore-1.20.70-py2.py3-none-any.whl", hash = "sha256:3dea2656b5555a1bcb299a83fdefe6f0ef331ffae55cc8f8edf06557342738c0"},
-    {file = "botocore-1.20.70.tar.gz", hash = "sha256:9bc8bd5f601d35658b2aaa78ebeef154fd092e64b37059e8eeef51648a3936c8"},
+    {file = "botocore-1.20.109-py2.py3-none-any.whl", hash = "sha256:71e55a76305f9b55266a0930d37c3cfb3586a699a22f92e4329f9bd0ad63aa4d"},
+    {file = "botocore-1.20.109.tar.gz", hash = "sha256:f0acd29847118e48c72c07a1bcf6f03417f22d67e05f310b8db51d77f4bd6234"},
 ]
 braintree = [
     {file = "braintree-4.9.0-py2.py3-none-any.whl", hash = "sha256:a4e9b8f9722a82989d3d8eeefee54ab5e87e1638cf37621caaeb8ec1230cd31f"},
